@@ -1,44 +1,44 @@
 // Sample menu data
 const menuData = [
     {
-        title: "Bruschetta",
-        desc: "Grilled bread with garlic, tomatoes, olive oil, and basil.",
-        price: "",
+        title: "DOSA",
+        desc: "Grilled Onion with garlic, tomatoes, olive oil, and basil.",
+        price: "₹ 120",
         category: "starters",
         img: "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHJlYWwlMjBpbmRpYW4lMjBmb29kfGVufDB8fDB8fHww"
     },
     {
         title: "Caesar Salad",
-        desc: "Crisp romaine, parmesan, croutons, and Caesar dressing.",
-        price: "$10",
+        desc: "Crisp Onion, carrot, Coconuts, and Caesar dressing.",
+        price: "₹ 50",
         category: "starters",
         img: "https://images.unsplash.com/photo-1722239312556-a6c37214279d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHJlYWwlMjBpbmRpYW4lMjBzYWxhZHxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
-        title: "Truffle Risotto",
+        title: "Roti with Truffle Mushrooms",
         desc: "Creamy risotto with truffle oil and wild mushrooms.",
-        price: "$18",
+        price: "₹ 180",
         category: "main",
         img: "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGluZGlhbiUyMGZvb2R8ZW58MHx8MHx8fDA%3D"
     },
     {
-        title: "Grilled Salmon",
-        desc: "Fresh salmon fillet, grilled to perfection, with lemon butter.",
-        price: "$22",
+        title: "Punjabi Chole Bhattore",
+        desc: "Fresh Garbanzo beans, grilled to perfection, with lemon butter.",
+        price: "₹ 220",
         category: "main",
         img: "https://media.istockphoto.com/id/979914742/photo/chole-bhature-or-chick-pea-curry-and-fried-puri-served-in-terracotta-crockery-over-white.jpg?s=2048x2048&w=is&k=20&c=zhmGombUCMWWkdI2COP1vh1bDma-3wS_FOv4GmHE41s="
     },
     {
         title: "Tiramisu",
         desc: "Classic Italian dessert with mascarpone and espresso-soaked ladyfingers.",
-        price: "$9",
+        price: "₹ 90",
         category: "desserts",
         img: "https://plus.unsplash.com/premium_photo-1668703459956-b8f36cd2bfbc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWFuJTIwZGVzc2VydHxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
-        title: "Panna Cotta",
-        desc: "Silky vanilla panna cotta with berry compote.",
-        price: "$8",
+        title: "Gajar ka Halwa",
+        desc: "Simmiering fresh grated carrots with full fat milk, sugar and ghee.",
+        price: "₹ 150",
         category: "desserts",
         img: "https://images.unsplash.com/photo-1517244683847-7456b63c5969?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuJTIwZGVzc2VydHxlbnwwfHwwfHx8MA%3D%3D"
     }
