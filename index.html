@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delizia - Fine Dining Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <div class="logo">Delizia</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Welcome to Delizia</h1>
+            <p>Experience the taste of luxury in every bite.</p>
+            <button id="reserveBtn">Reserve a Table</button>
+        </div>
+    </section>
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-filter">
+                <button class="filter-btn" data-category="all">All</button>
+                <button class="filter-btn" data-category="starters">Starters</button>
+                <button class="filter-btn" data-category="main">Main Course</button>
+                <button class="filter-btn" data-category="desserts">Desserts</button>
+            </div>
+            <div class="menu-items" id="menuItems">
+                <!-- Menu cards will be rendered here by JS -->
+            </div>
+        </div>
+    </section>
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Delizia is a fine dining restaurant offering an exquisite culinary experience. Our chefs blend tradition and innovation to create unforgettable dishes in a luxurious setting.</p>
+        </div>
+    </section>
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2>Contact & Reservation</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <textarea placeholder="Message or Reservation Details" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <div class="modal" id="reservationModal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Reserve a Table</h2>
+            <form id="reservationForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="date" required>
+                <input type="time" required>
+                <input type="number" placeholder="No. of Guests" min="1" required>
+                <button type="submit">Reserve</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Delizia Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
